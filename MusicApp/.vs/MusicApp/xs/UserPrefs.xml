@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{D7E3EF2D-BCC5-4AF3-8F01-342BE11F7F56}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MusicApp/Views/MainWindow.axaml">
+    <Files>
+      <File FileName="MusicApp/Models/Music.cs" Line="8" Column="30" />
+      <File FileName="MusicApp/Views/MainWindow.axaml" Line="26" Column="1" />
+      <File FileName="MusicApp/ViewModels/MainWindowViewModel.cs" Line="11" Column="48" />
+      <File FileName="MusicApp/App.axaml" Line="10" Column="28" />
+      <File FileName="MusicApp/Program.cs" Line="1" Column="1" />
+      <File FileName="MusicApp/App.axaml.cs" Line="26" Column="67" />
+      <File FileName="MusicApp/Models/MusicParcer.cs" Line="47" Column="60" />
+      <File FileName="MusicApp/ViewModels/ViewModelBase.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MusicApp" expanded="True" selected="True">
+            <Node name="MusicApp" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="App.axaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MusicApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <AuthorInfo Name="alxb46" Email="Bojc_tq19@student.itstep.org" Copyright="Liix$^" Company="" Trademark="" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
