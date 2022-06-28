@@ -32,7 +32,7 @@ namespace MusicApp.Models
                 str = str[(index + name_class.Length)..]; //
 
                 index = str.IndexOf("</div>");
-                music.Song = str[..index];
+                music.Song = str[..index].Replace("&lt;", "<").Replace("&gt;", ">");
 
                 //parse artists
                 do
@@ -44,7 +44,7 @@ namespace MusicApp.Models
                     {
                         str = str.Substring(index + name_class.Length);
                         index = str.IndexOf("</a>");
-                        music.Artist += str[..index] + "   ";
+                        music.Artist += str[..index].Replace("&lt;", "<").Replace("&gt;", ">") + "   ";
                     }
                     //str = str.Substring(index);
                 } while (str.IndexOf(name_class) != -1);
@@ -60,7 +60,7 @@ namespace MusicApp.Models
                 index = str.IndexOf(name_class);
                 str = str.Substring(index + name_class.Length);
                 index = str.IndexOf("</a>");
-                music.Album = str[..index];
+                music.Album = str[..index].Replace("&lt;", "<").Replace("&gt;", ">");
 
                 //parse time 
                 str = str.Substring(index);
